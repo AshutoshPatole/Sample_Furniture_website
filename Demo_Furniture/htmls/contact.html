@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="./sofa.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">  
+    <script src="../index.js"></script>
+    <style>
+         
+           #map {
+             height: 400px;
+             width: 100%; 
+            }
+         </style>
+    
+</head>
+<body>
+
+    <div class="page-wrapper chiller-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm btn-dark">
+          <i class="fas fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+          <div class="sidebar-content">
+            <div class="sidebar-brand">
+              <a href="#">N4G4 Stores</a>
+              <div id="close-sidebar">
+                <i class="fas fa-times"></i>
+              </div>
+            </div>
+            <div class="sidebar-header">
+              <div class="user-pic" style="width: 230px;">
+                <img class="img-responsive img-rounded" src="../assets/img/logo.png"
+                  alt="User picture" style="width: 220px;">
+              </div>
+             
+            </div>
+            <!-- sidebar-header  -->
+            <div class="sidebar-search">
+              <div>
+                <div class="input-group">
+                  <input type="text" class="form-control search-menu" placeholder="Search...">
+                  <div class="input-group-append">
+                    <span class="input-group-text">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- sidebar-search  -->
+            <div class="sidebar-menu">
+              <ul>
+                <li class="header-menu">
+                  <span>General</span>
+                </li>
+                <li class="sidebar-dropdown1">
+                    <a href="../index.html">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span>Home</span>
+                   
+                </a>
+                 
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>Commercial Products</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                    <ul>
+                      <li>
+                        <a href="/htmls/sofa.html">Sofa
+      
+                        </a>
+                      </li>
+                      <li>
+                        <a href="./wardrobe.html">Wardrobe</a>
+                      </li>
+                      <li>
+                        <a href="#">Beds</a>
+                      </li>
+                      
+                      <li>
+                            <a href="./Dining.html">Dining Sets</a>
+                          </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                    <span>Company Products</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                    <ul>
+                    <li>
+                        <a href="./swing.html">Swing Chair</a>
+                        </li>
+                      <li>
+                        <a href="#">Chairs</a>
+                      </li>
+                      <li>
+                        <a href="#">Tables</a>
+                      </li>
+                       
+                      <li>
+                            <a href="#">Computer Table</a>
+                      </li>
+                      <li>
+                        <a href="#">AC</a>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                </li>
+                <li class="sidebar-dropdown1">
+                  <a href="./about.html">
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                    <span>About us</span>
+                  </a>
+                 
+                </li>
+                <li class="sidebar-dropdown1">
+                  <a href="../htmls/contact.html">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>Contact</span>
+                  </a>
+                  
+                </li>
+               
+              </ul>
+            </div>
+            <!-- sidebar-menu  -->
+          </div>
+         
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <div class="content">
+        <main class="page-content">
+          <div class="container-fluid">
+            <h2>N4G4 Stores </h2>
+            <div id="map"></div>
+        
+            <div class="row">
+                    <div class="col-lg-3">
+                        <div class="contact_info" style="margin-top: 70px;">
+                            <div class="info_item">
+                                <i class="lnr lnr-home"></i>
+                                <h6>St Joseph's HEadquaters</h6>
+                                <p>Chennai - 600119</p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-phone-handset"></i>
+                                <h6><a href="#">8637447210</a></h6>
+                                <p>Mon to Fri 9am to 6 pm</p>
+                            </div>
+                            <div class="info_item">
+                                <i class="lnr lnr-envelope"></i>
+                                <h6><a href="https://www.gmail.com">apatole479@gmail.com</a></h6>
+                                <p>Send us your query anytime!</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+          </div>
+
+
+          
+      <footer class="page-footer font-small blue pt-4">
+
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+      
+          <!-- Grid row -->
+          <div class="row">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 mt-md-0 mt-3">
+      
+              <!-- Content -->
+              <h5 class="text-uppercase" style="color: #ffff">N4G4</h5>
+            
+      
+            </div>
+            <!-- Grid column -->
+      
+            <hr class="clearfix w-100 d-md-none pb-3">
+      
+            <!-- Grid column -->
+            <div class="col-md-2 mb-md-0 mb-3">
+      
+                <!-- Links -->
+              
+      
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Locations Map</a>
+                  </li>
+                  <li>
+                    <a href="#!">Popular Searches</a>
+                  </li>
+                  <li>
+                    <a href="#!">Help</a>
+                  </li>
+                  <li>
+                    <a href="#!">Terms & conditions</a>
+                  </li>
+                </ul>
+      
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 mb-md-0 mb-3">
+      
+                <!-- Links -->
+                
+      
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#!">Join in Social Media</a>
+                  </li>
+                 
+                </ul>
+                    
+              </div>
+              <ul class="list-unstyled"><li><h5>Follow us on:</h5></li>
+              
+              <ul class="social-network social-circle">
+                    <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                    <li><a href="#" class="icoFacebook" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" class="icoTwitter" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="icoGoogle" title="Google +"><i class="fab fa-google-plus-g"></i></a></li>
+                    <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </ul>
+              <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+        <!-- Footer Links -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+          <a href="#">N4G4 Stores</a>
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+
+        
+        </main>
+      </div>
+        <!-- page-content" -->
+   
+      </div>
+      <script>
+          
+           
+            function initMap() {
+          
+              var chennai = {lat: 12.86832986, lng:  80.209499162};
+             
+              var map = new google.maps.Map(
+                  document.getElementById('map'), {zoom: 10, center: chennai});
+              
+              var marker = new google.maps.Marker({position: chennai, map: map});
+            }
+                </script>
+               
+               
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyq_HIFy9bS90ND_fwTdCF5mZGGA0r-hk&callback=initMap">
+      </script>
+ 
+
+</body>
+</html>
